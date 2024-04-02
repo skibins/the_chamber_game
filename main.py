@@ -88,7 +88,7 @@ def enter_shop():
 def enter_boss_fight():
     play_music('music/boss_fight.wav', loop=True)
     boss = Boss()
-    print(f'\033[93m{player.name.upper()}, YOU ENTERED THE BOSS LAIR\033[0m')
+    print(f'\033[93m{player.name.upper()}, YOU\'VE ENTERED THE BOSS LAIR\033[0m')
     print('\033[95mTHERE IS NO ESCAPE NOW! YOU HAVE TO FIGHT\033[0m')
     print('Your stats:')
     print(f'Damage: \033[93m{player.damage}\033[0m')
